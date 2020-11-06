@@ -1,5 +1,4 @@
-#Part of the code is from the assignment sheet handed out by the professor for us to use
-#All other code is written by me.
+# Developed with assitance of professor
 
 import os
 import random
@@ -16,7 +15,7 @@ def load_data(dir):
             list.append(' '.join(body))
     return list
 
-BASE_DATA_DIR= '/Users/timothyswang/Documents/EE364Comp/ComputerProblem2/enron1' # fill me in
+BASE_DATA_DIR= '/Users/timothyswang/Documents/EE364Comp/ComputerProblem2/enron1'
 
 # load and tag data
 ham = [(text, 'ham') for text in load_data(BASE_DATA_DIR + '/ham')]
@@ -25,9 +24,7 @@ spam = [(text, 'spam') for text in load_data(BASE_DATA_DIR + '/spam')]
 both = ham + spam
 
 def preprocess(text):
-    # add all preprocessing here,
-    # ...
-    # ...
+
 
     #Make everything lowercase
     text = text.lower()
@@ -56,7 +53,7 @@ def preprocess(text):
 
 both = [(preprocess(text), label) for (text,label) in both]
 
-# shuffle (may disable for debug)
+# shuffle
 random.shuffle(both)
 # split train/test
 splitp = 0.80 # 80/20 split
