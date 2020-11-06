@@ -70,19 +70,19 @@
 			var xhttp = new XMLHttpRequest();
 			var src = "";
 			if (searchparameters === "intitle"){
-				src = "https://www.googleapis.com/books/v1/volumes?q=+" + searchparameters + ":" + searchbar + "&key=AIzaSyAeMNeGQUrhz7RYOqKUv0qXHq9fB0xb8NQ";
+				src = "https://www.googleapis.com/books/v1/volumes?q=+" + searchparameters + ":" + searchbar + "&";
 			}
 			else if (searchparameters === "inauthor"){
-				src = "https://www.googleapis.com/books/v1/volumes?q=+" + searchparameters + ":" + searchbar + "&key=AIzaSyAeMNeGQUrhz7RYOqKUv0qXHq9fB0xb8NQ";
+				src = "https://www.googleapis.com/books/v1/volumes?q=+" + searchparameters + ":" + searchbar + "&";
 			}
 			else if (searchparameters === "isbn"){
-				src = "https://www.googleapis.com/books/v1/volumes?q=+" + searchparameters + ":"  + searchbar + "&key=AIzaSyAeMNeGQUrhz7RYOqKUv0qXHq9fB0xb8NQ";
+				src = "https://www.googleapis.com/books/v1/volumes?q=+" + searchparameters + ":"  + searchbar + "&";
 			}
 			else if (searchparameters === "inpublisher"){
-				src = "https://www.googleapis.com/books/v1/volumes?q=+" + searchparameters + ":" + searchbar + "&key=AIzaSyAeMNeGQUrhz7RYOqKUv0qXHq9fB0xb8NQ";
+				src = "https://www.googleapis.com/books/v1/volumes?q=+" + searchparameters + ":" + searchbar + "&";
 			}
 			else{
-				src = "https://www.googleapis.com/books/v1/volumes?q=" + searchbar + "&key=AIzaSyAeMNeGQUrhz7RYOqKUv0qXHq9fB0xb8NQ";
+				src = "https://www.googleapis.com/books/v1/volumes?q=" + searchbar + "&";
 			}
 			
 			xhttp.open("GET", src, false);
