@@ -1,0 +1,89 @@
+@font-face {
+  font-family: myFont;
+  src: url(fontawesome-webfont.ttf);
+  src: url(fontawesome-webfont.eot);
+  src: url(fontawesome-webfont.svg);
+  src: url(fontawesome-webfont.woff);
+  src: url(fontawesome-webfont.woff2);
+  src: url(FontAwesome.otf);
+}
+
+
+#Title{
+	font-family: myFont;
+	font-size: 40px;
+	color: LightGrey;
+	position: absolute;
+	left: 10%;
+	top: 40%;
+	
+}
+
+#searchbar{
+	width : 80%;
+	height : 3%;
+	position: absolute;
+	left: 10%;
+	top: 52%;
+}
+
+#namebutton{
+	font-family: myFont;
+	position: absolute;
+	left: 10%;
+	top: 57%;
+	color: White;
+}
+
+#isbnbutton{
+	font-family: myFont;
+	position: absolute;
+	left: 50%;
+	top: 57%;
+	color: White;
+}
+
+#authorbutton{
+	font-family: myFont;
+	position: absolute;
+	left: 10%;
+	top: 60%;
+	color: White;
+}
+
+#publisherbutton{
+	font-family: myFont;
+	position: absolute;
+	left: 50%;
+	top: 60%;
+	color: White;
+}
+
+#submit{
+	position: absolute;
+	font-family: myFont;
+	top: 65%;
+	left : 85%;
+	background: black;
+	color: white;
+	padding:5px 15px;
+	-webkit-border-radius: 5px;
+    border-radius: 5px;
+    border:0 none;
+    font-size: 15px;
+    box-shadow: 0 1px 2px #fff, 0 -1px 1px #666, inset 0 -1px 1px rgba(0,0,0,0.5), inset 0 1px 1px rgba(255,255,255,0.8);
+}
+
+#background{
+	z-index: -5;
+	position: absolute;
+	top: 125px;
+}
+
+#errorMessage{
+	position: absolute;
+	font-family: myFont;
+	top: 65%;
+	left : 10%;
+	color: red;
+}

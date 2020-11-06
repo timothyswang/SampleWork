@@ -1,0 +1,161 @@
+@font-face {
+  font-family: myFont;
+  src: url(fontawesome-webfont.ttf);
+  src: url(fontawesome-webfont.eot);
+  src: url(fontawesome-webfont.svg);
+  src: url(fontawesome-webfont.woff);
+  src: url(fontawesome-webfont.woff2);
+  src: url(FontAwesome.otf);
+}
+
+#content{
+	position: absolute;
+	left: 10%;
+}
+
+#searchbar{
+	width : 20%;
+	height : 3%;
+	position: absolute;
+	left: 25%;
+	top: 8%;
+}
+
+#namebutton{
+	font-family: myFont;
+	position: absolute;
+	left: 55%;
+	top: 7%;
+	color: Gray;
+	font-size: 10px;
+}
+
+#isbnbutton{
+	font-family: myFont;
+	position: absolute;
+	left: 65%;
+	top: 7%;
+	color: Gray;
+	font-size: 10px;
+}
+
+#authorbutton{
+	font-family: myFont;
+	position: absolute;
+	left: 55%;
+	top: 10%;
+	color: Gray;
+	font-size: 10px;
+}
+
+#publisherbutton{
+	font-family: myFont;
+	position: absolute;
+	left: 65%;
+	top: 10%;
+	color: Gray;
+	font-size: 10px;
+}
+
+#submit{
+	position: absolute;
+	font-family: myFont;
+	top: 8%;
+	left : 48%;
+	padding:6px 15px;
+	-webkit-border-radius: 5px;
+    border-radius: 5px;
+	background: LightGrey;
+	color: white;
+}
+
+#results{
+	font-family: myFont;
+	margin-left: 6.5%;
+	font-weight: normal;
+	font-style: normal;
+	color: DimGray;
+}
+
+table {
+  border-collapse: collapse;
+  
+  width: 80%;
+  margin-left:10%;
+  margin-right:10%;
+}
+tr {
+  padding-left: 10px;
+  vertical-align: top;
+}
+
+h1{
+	font-family: myFont;
+	font-weight: normal;
+	margin:0;
+	margin-left: 60px;
+	font-size:30px;
+	color: Gray;
+}
+h2{
+	font-family:myFont;
+	font-weight: bold;
+	font-style: italic;
+	margin:0;
+	margin-left: 60px;
+	font-size: 18px;
+	color: Gray;
+}
+h3{
+	font-family: myFont;
+	font-weight: bold;
+	margin:0;
+	margin-left: 60px;
+	margin-top: 5px;
+	margin-bottom: 13px;
+	font-size: 14px;
+	color: Gray;
+}
+h4{
+	font-family: myFont;
+	font-weight: bold;
+	margin:0;
+	margin-left: 60px;
+	margin-top: 5px;
+	margin-bottom: 13px;
+	font-size: 14px;
+	color: Gray;
+}
+h5{
+	font-family: myFont;
+	font-weight: bold;
+	margin:0;
+	margin-left: 60px;
+	margin-top: 5px;
+	font-size: 14px;
+	color: Gray;
+}
+h6{
+	font-family: myFont;
+	font-weight: normal;
+	margin:0;
+	margin-left: 60px;
+	margin-top: 5px;
+	margin-bottom: 7px;
+	font-size: 14px;
+	color: Gray;
+}
+h7{
+	font-family: myFont;
+	font-weight: normal;
+	margin:0;
+	margin-left: 60px;
+	margin-top: 10px;
+	font-size: 14px;
+	color: Gray;
+}
+
+#bookCover{
+	margin:0;
+	margin-left: 30px;
+}

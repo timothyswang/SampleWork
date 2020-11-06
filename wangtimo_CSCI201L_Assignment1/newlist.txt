@@ -1,0 +1,70 @@
+
+Name: David Hernandez
+Email: Davidh@usc.edu
+Age: 19
+Near Campus: No
+Notes: Carpool,201 classmate
+
+
+Name: James Johnson
+Email: Jamesj@usc.edu
+Age: 21
+Near Campus: Yes
+Notes: Cousin,Best Friend
+
+
+Name: Elizabeth Miller
+Email: EMiller@usc.edu
+Age: 18
+Near Campus: No
+Notes: 201 classmate
+
+
+Name: Mary Rodriguez
+Email: Maryr@usc.edu
+Age: 22
+Near Campus: Yes
+Notes: Car seller,Catherine's cousin,104 classmate
+
+
+Name: James Smith
+Email: jamess@usc.edu
+Age: 19
+Near Campus: No
+Notes: 201 classmate,subleasing appartemnt,couch seller,TV seller,bike lender
+
+
+Name: Sam Smith
+Email: Sams@usc.edu
+Age: 21
+Near Campus: Yes
+Notes: 104 classmate
+
+
+Name: Tiffany Smith
+Email: Tiffanys@usc.edu
+Age: 22
+Near Campus: No
+Notes: Lend textbooks,Wilson's friend
+
+
+Name: Jane Taylor
+Email: Taylor@usc.edu
+Age: 19
+Near Campus: Yes
+Notes: 201 classmate,104 classmate
+
+
+Name: Timothy Wang
+Email: wangtimo@usc.edu
+Age: 19
+Near Campus: Yes
+Notes: Timo is awesome!!!!,Timo is even more awesome!!!
+
+
+Name: Martha Wilson
+Email: Wilson@usc.edu
+Age: 18
+Near Campus: Yes
+Notes: 201 classmate
+

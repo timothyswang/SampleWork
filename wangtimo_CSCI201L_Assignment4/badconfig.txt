@@ -1,0 +1,5 @@
+ServerHostname=localhost
+ServerPort=6789
+DBConnection=jdbc:mysql://google/wangtimo3?cloudSqlInstance=wangtimo3:us-west1:wangtimo3&socketFactory=com.google.cloud.sql.mysql.SocketFactory&useSSL=false&user=wangtimo3&password=wangtimo3
+DBUsername=wangtimo3
+DBPassword=wangtimo3
